@@ -4,7 +4,7 @@ import config from '@/lib/config'
 import {ReactChildren} from '@/lib/types'
 import {Metadata} from 'next'
 import './globals.scss'
-import {DepictProvider} from '../lib/reactUIWrapped'
+import {DepictProvider} from '@depict-ai/react-ui'
 
 //process.kill(process.pid, 'SIGUSR1');
 //await new Promise(r => setTimeout(r, 5000));
