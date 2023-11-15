@@ -1,7 +1,6 @@
 import SearchPage from '../components/SearchPage'
-import {NewStrongerDisplay} from '@/components/ProductCard'
 
-export default function SearchPagePage() {
+export default function SearchPage() {
   return (
     <div className="search-page-wrapper">
       <SearchPage />
