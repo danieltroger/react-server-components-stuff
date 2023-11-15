@@ -11,7 +11,8 @@ const nextConfig = {
         hostname: '**.gravatar.com'
       }
     ]
-  }
+  },
+  reactStrictMode: false
   // typescript: {
   //   // !! WARN !!
   //   // Dangerously allow production builds to successfully complete even if
