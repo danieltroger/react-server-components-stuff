@@ -1,10 +1,10 @@
-import {ProductCard} from '@/components/ProductCard'
-import {SearchPage} from '@depict-ai/react-ui'
+import SearchPage from '../components/SearchPage'
+import {NewStrongerDisplay} from '@/components/ProductCard'
 
 export default function SearchPagePage() {
   return (
     <div className="search-page-wrapper">
-      <SearchPage productCard={ProductCard} />
+      <SearchPage />
     </div>
   )
 }

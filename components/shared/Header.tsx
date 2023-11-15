@@ -2,7 +2,7 @@
 import config from '@/lib/config'
 import Link from 'next/link'
 import HeaderDescription from './HeaderDescription'
-import {useSearchModal} from '@depict-ai/react-ui'
+import {useSearchModal} from '@/lib/reactUIWrapped'
 
 /**
  * The shared header component.
