@@ -3,7 +3,11 @@ import Header from '@/components/shared/Header'
 import config from '@/lib/config'
 import {ReactChildren} from '@/lib/types'
 import {Metadata} from 'next'
-import './globals.css'
+import './globals.scss'
+import {DepictProvider} from '../lib/reactUIWrapped'
+
+//process.kill(process.pid, 'SIGUSR1');
+//await new Promise(r => setTimeout(r, 5000));
 
 /**
  * Default metadata.
@@ -25,9 +29,15 @@ export default function RootLayout({children}: ReactChildren) {
     <html lang="en">
       <head />
       <body>
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <DepictProvider
+          merchant="stronger"
+          market="se"
+          search={{searchPagePath: '/search'}}
+        >
+          <Header />
+          {children}
+          <Footer />
+        </DepictProvider>
       </body>
     </html>
   )

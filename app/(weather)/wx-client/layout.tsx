@@ -1,4 +1,5 @@
-import '@/app/globals.css'
+// @ts-nocheck
+import '@/app/globals.scss'
 import Search from '@/components/wx-client/Search'
 import Settings from '@/components/wx-client/Settings'
 import WeatherProvider from '@/components/wx-client/WeatherProvider'

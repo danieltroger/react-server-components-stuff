@@ -11,10 +11,6 @@ const config = {
       path: '/'
     },
     {
-      name: 'Weather (Server)',
-      path: '/wx-server/'
-    },
-    {
       name: 'Weather (Client)',
       path: '/wx-client/'
     },
@@ -23,8 +19,8 @@ const config = {
       path: '/blog/'
     },
     {
-      name: 'GitHub Repo',
-      path: 'https://github.com/gregrickaby/nextjs-app-router-examples'
+      name: 'Search page',
+      path: '/search/'
     }
   ]
 }

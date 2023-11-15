@@ -1,13 +1,20 @@
+'use client'
 import config from '@/lib/config'
 import Link from 'next/link'
 import HeaderDescription from './HeaderDescription'
+import {useSearchModal} from '@/lib/reactUIWrapped'
 
 /**
  * The shared header component.
  */
 export default function Header() {
+  const {open} = useSearchModal({
+    location: 'centered'
+  })
+
   return (
     <header className="text-center sm:text-left">
+      <button onClick={open}>Open search</button>
       <h1>
         <Link href="/">{config.siteName}</Link>
       </h1>
