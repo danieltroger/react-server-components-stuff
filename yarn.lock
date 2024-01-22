@@ -355,7 +355,7 @@ __metadata:
   dependencies:
     "@depict-ai/react-ui": "npm:^2.1.15"
     "@tailwindcss/typography": "npm:^0.5.10"
-    "@types/node": "npm:^20.9.0"
+    "@types/node": "npm:^20.11.5"
     "@types/react": "npm:^18.2.37"
     "@types/react-dom": "npm:^18.2.15"
     autoprefixer: "npm:^10.4.16"
@@ -692,12 +692,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.9.0":
-  version: 20.9.0
-  resolution: "@types/node@npm:20.9.0"
+"@types/node@npm:^20.11.5":
+  version: 20.11.5
+  resolution: "@types/node@npm:20.11.5"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 755d07de735eafda4e20af75ad9d03bdbfddef327d790e9a896142eac7493db5d8501591376e1c8227aa12eeb88e522bc727c6024504842ed40e539e8a466db9
+  checksum: 6d18cec852f5cfbed3ec42b5c01c026e7a3f9da540d6e3d6738d4cee9979fb308cf27b6df7ba40a6553e7bc82e678f0ef53ba6e6ad52e5b86bd97b7783c2a42c
   languageName: node
   linkType: hard
 
